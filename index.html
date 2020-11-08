@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+                <h1 class="logo">Kohut</h1>
+            </div>
+            <nav class="header-menu">
+                <a href="#home" class="menu-link" target="">home</a>
+                <a href="#about" class="menu-link">about</a>
+                <a href="#works" class="menu-link">works</a>
+                <a href="#contact" class="menu-link">contacts</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section" id="home">
+            <div class="container">
+                <h1 class="home-title-name">Andrii Kohut</h1>
+                <h2 class="home-title-position">QA/QC Engineer</h2>
+                <a href="#contact">
+                    <button class="btn btn-secondary text-white btnWriteMe">Write me</button>
+                </a>
+                <a href="#about">
+                    <i class="fas fa-angle-double-down arrowHome"></i>
+                </a>
+            </div>
+        </section>
+        <section class="section" id="about">
+            <div class="container">
+                <div class="about-container">
+                    <h1 class="about-title">AboutMe</h1>
+                 Hi, I’m Andrii. I’m working as a Software test engineer for the last year and seven months.
+
+I’ve started my career as a manual test engineer. But I’m a bit of programming background, so soon I moved into the role of an automation tester.
+
+I ran into many types of manual testing, some of them were.
+<ul>
+    <li>Acceptance Testing,</li>
+    <li>Usability Testing,</li>
+    <li>Functional Testing,</li>
+    <li>Black Box Testing,</li>
+    <li>Regression Testing,</li>
+    <li>Compatibility Testing,</li>
+    <li>Integration Testing,</li>
+    <li>System Testing.</li>
+As a part of the testing process, I was primarily responsible for the following tasks.
+Create test cases as per the client requirements,
+Executing test cases,
+Tracking and reporting defects.
+Also, I used to update the requirements traceability matrix.
+                </div>
+               
+            </div>
+            <a href="#works">
+                <i class="fas fa-angle-double-down arrowAbout"></i>
+            </a>
+        </section>
+        <section class="section" id="works">
+            <div class="works-container">
+                <h2 class="work-title">My Experience</h2>
+                <div class="work-card">
+                    <p>Junior Software Testing Engineer, Epam, Lviv</p>
+                    <p>January 2019 - December 2019</p>
+                </div>
+                <div class="work-card">
+                    <p>Content Manager, Event Manager, LemBS, Lviv</p>
+                    <p>February 2018 - December 2018</p>
+                </div>
+                <div class="work-card">
+                    <p>Speaker, IT Step Academy, Lviv</p>
+                    <p>January 2017 - February 2019</p>
+                </div>
+            </div>
+            <a href="#contact">
+                <i class="fas fa-angle-double-down arrowContact"></i>
+            </a>
+        </section>
+        <section class="section" id="contact">
+            <div class = 'contactBackground'>
+            <h2 style="color: black;" class="d-flex justify-content-center align-items-center">Contact form</h2>
+            <!-- <h2 style="color:aliceblue">Andrii Kohut</h2> -->
+            <!-- <p>QA/QC Engineer</p>
+            <p>+380984505901</p>
+            <p>a.kogut01@gmail.com</p> -->
+            <br>
+            <div class="page d-flex justify-content-center align-items-center">
+                <div id = "formSection" class="form-section fade-in-top">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" id="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <button id = 'send' type='button' class="btn btn-dark">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
